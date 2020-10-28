@@ -6,6 +6,7 @@ def find_even_values(src)
   count = 0
   new_arr = []
     while count < src.length
+      src[count]
       inner_count = 0
       while inner_count < src[count].length
         if src[count][inner_count] % 2 == 0
